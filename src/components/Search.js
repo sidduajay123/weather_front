@@ -110,38 +110,3 @@ export default class Forms extends React.Component{
         )
     }
 }
-
-// import { useState } from "react";
-
-// const Search = ({onAdd}) =>{
-
-//     const [text, setText] = useState('');
-//     const onSubmit = (e) => {
-//         e.preventDefault()
-    
-//         if (!text) {
-//           alert('Please add a task')
-//           return
-//         }
-    
-//         onAdd({ text })
-    
-//         setText('')
-//       }
-
-//     return (
-//         <form className='add-form' onSubmit={onSubmit}>
-//           <div className='form-control'>
-//             <label>Task</label>
-//             <input
-//               type='text'
-//               placeholder='Enter City'
-//               value={text}
-//               onChange={(e) => setText(e.target.value)}
-//             />
-//           </div>
-    
-//           <input type='submit' value='Show Result' className='btn btn-block' />
-//         </form>
-//       )
-// }
