@@ -33,23 +33,13 @@ export default class Forms extends React.Component{
                     this.setState({result:res.result})
                 }
                 
-                console.log(this.state.result)
-                console.log(this.state.result.main)
-                console.log(this.state.result.main.temp)
             })
 
-            // const data = res.json()
             
         
     }
 
-    // weatherResult(){
-    //     if(this.state.result !== null){
-    //          (
-    //             <div>Weather Result</div>
-    //         );
-    //     }
-    // }
+
 
     render()
     {
